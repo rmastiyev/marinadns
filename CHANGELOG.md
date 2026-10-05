@@ -36,6 +36,8 @@ This revision fixes passages where the prose did not match the Composite Formula
 | 12 | Moves Category weight adjustment from MINOR to MAJOR. Defines the MINOR rule in terms of published Check properties. States when Reports from different versions can be compared. | The old MINOR definition contradicted itself. The policy is now stricter, not looser. |
 | 13 | Records that six Checks were added before first release. Discloses that DNSSEC signature presence and algorithm acceptability are scored separately. | The old wording implied that MINOR revisions had already happened under v1.0. |
 | Appendix A | States the pass condition for DNSSEC Multi-Algorithm Signing. | The Check's title could be read as requiring more than one algorithm. |
+| Appendix A | Adds an "RFC basis" column that publishes the RFC Adherence Ledger for every Check. | Section 10 said every Check carried this annotation, but none was published. |
+| 13, 14 | Replaces RFC 8624 with RFC 9904, which obsoleted it in November 2025. Adds RFC 1034, RFC 7766 and RFC 9471 as Ledger sources. | RFC 8624 was already obsolete at first release. The new references support the Ledger entries. |
 | Appendix B | Corrects the worked example's Best Practice tier from Needs Improvement to Poor. | Aligns the example with the tiers applied in Reports. |
 | Appendix C (new) | Adds a revision history. | Keeps a record of every revision. |
 | Appendix D (new, informative) | Adds tables of effective Category shares for two reference configurations. | Makes the per-Check weighting in Section 7 easy to see. |
